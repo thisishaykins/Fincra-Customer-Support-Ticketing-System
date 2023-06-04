@@ -24,12 +24,18 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Fincra Customer Support Ticketing System Nestjs App. 
 
 ## Installation
 
 ```bash
 $ npm install
+```
+
+## Setup env file
+
+```bash
+cp .env.sample .env
 ```
 
 ## Running the app
