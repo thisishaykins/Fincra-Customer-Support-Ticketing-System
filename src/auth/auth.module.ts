@@ -24,7 +24,7 @@ dotenv.config();
     MongooseModule.forFeature([{ name: 'User', schema: UserSchema }]),
     UserModule,
   ],
-  providers: [AuthService, JwtStrategy],
+  providers: [AuthService, UserService, JwtStrategy],
   controllers: [AuthController],
 })
 export class AuthModule {}
